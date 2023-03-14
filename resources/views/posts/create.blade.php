@@ -17,6 +17,7 @@
 <body>
     <div class="container">
         <h1>Create New Post</h1>
+        <a href="{{ url('/posts') }}">Kembali</a>
         <form method="POST" action="{{ url('posts') }}" class="form-control">
             @csrf
             <div class="mb-3">

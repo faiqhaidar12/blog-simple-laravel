@@ -16,17 +16,16 @@
 </head>
 
 <body>
-    <div class="container ">
+    <div class="container border border-b my-5 rounded-5 bg-light">
         <div class="m-1 d-flex justify-content-between">
-            <h1>Blog Semiclon
-            </h1>
+            <h1>Blog Semiclon</h1>
             <a href="{{ url('posts/create') }}" class="btn btn-success m-1">+ Create Post</a>
         </div>
         @foreach ($posts as $post)
             <div class="card mb-3">
                 <div class="card-body">
                     <h5 class="card-title">{{ $post->title }}</h5>
-                    <p class="card-text">{{ $post->content }}</p>
+                    <p class="card-text">{{ Str::limit($post->content, 200) }}</p>
                     <p class="card-text"><small class="text-muted">Last updated at
                             {{ date('d M Y ', strtotime($post->created_at)) }}</small></p>
                     <div class="m-1 d-flex justify-content-between">
@@ -36,6 +35,9 @@
                 </div>
             </div>
         @endforeach
+        <div class="d-flex justify-content-center align-content-center">
+            {{ $posts->links() }}
+        </div>
     </div>
 </body>
 
