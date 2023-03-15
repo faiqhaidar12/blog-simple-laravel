@@ -10,11 +10,8 @@
 ![alt](./public/SS/create.png),
 
 ![alt daftar](./public/SS/daftar.png.png)
-![alt daftar_salah](./public/SS/daftar_salah.png.png)
-![alt edit](./public/SS/edit.png.png)
-![alt home](./public/SS/home.png.png)
-![alt login](./public/SS/login.png.png)
-![alt login_salah](./public/SS/login_salah.png.png.png)
+![alt](./public/SS/daftar.png)
+![alt](./public/SS/edit.png)
 
 ## About Laravel
 
