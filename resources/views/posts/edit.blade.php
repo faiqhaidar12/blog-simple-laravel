@@ -1,20 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
+@extends('layouts.app')
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Blog | Edit Post</title>
-    <link href="{{ asset('bootstrap5/css/bootstrap.min.css') }}" rel="stylesheet"
-        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    {{-- JS --}}
-    <script src="{{ asset('bootstrap5/js/bootstrap.bundle.min.js') }}"
-        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
-    </script>
-</head>
+@section('title', 'Edit')
 
-<body>
+@section('content')
     <div class="container border my-5 pb-5 pt-5 rounded-5">
         <h1>Edit Post</h1>
         <div class="d-flex justify-content-end align-content-center">
@@ -43,6 +31,4 @@
             </div>
         </form>
     </div>
-</body>
-
-</html>
+@endsection
