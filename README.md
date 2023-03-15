@@ -8,12 +8,13 @@
 </p>
 
 ![alt](./public/SS/create.png),
-![alt](./public/SS/daftar.png.png),
-![alt](./public/SS/daftar_salah.png.png),
-![alt](./public/SS/edit.png.png),
-![alt](./public/SS/home.png.png),
-![alt](./public/SS/login.png.png),
-![alt](./public/SS/login_salah.png.png.png),
+
+![alt](./public/SS/daftar.png.png)
+![alt](./public/SS/daftar_salah.png.png)
+![alt](./public/SS/edit.png.png)
+![alt](./public/SS/home.png.png)
+![alt](./public/SS/login.png.png)
+![alt](./public/SS/login_salah.png.png.png)
 
 ## About Laravel
 
