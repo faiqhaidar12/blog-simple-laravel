@@ -7,11 +7,12 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-![alt](./public/SS/create.png),
-
-![alt daftar](./public/SS/daftar.png.png)
+![alt](./public/SS/create.png)
 ![alt](./public/SS/daftar.png)
 ![alt](./public/SS/edit.png)
+![alt](./public/SS/home.png)
+![alt](./public/SS/login_salah.png)
+![alt](./public/SS/login.png)
 
 ## About Laravel
 
